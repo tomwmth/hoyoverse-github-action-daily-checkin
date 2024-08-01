@@ -23,11 +23,11 @@ public class CheckInDailyTest {
                         .webhook(WebhookInfo.builder()
                                 .url(System.getenv("WEBHOOK_URL"))
                                 .avatar("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png")
-                                .name("Hoyo Check In")
+                                .name("HoyoDaily")
                                 .build())
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_STAR_RAIL)
-                        .game(GameType.ZENLESS_ZONE_ZERO)
+//                        .game(GameType.ZENLESS_ZONE_ZERO)
                         .build()
 
         ));
