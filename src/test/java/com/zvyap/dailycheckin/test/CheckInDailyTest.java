@@ -27,7 +27,6 @@ public class CheckInDailyTest {
                                 .build())
                         .game(GameType.GENSHIN_IMPACT)
                         .game(GameType.HONKAI_STAR_RAIL)
-                        .game(GameType.ZENLESS_ZONE_ZERO)
                         .build()
 
         ));
